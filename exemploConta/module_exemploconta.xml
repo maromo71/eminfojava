@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_exemploconta" default="compile.module.exemploconta">
+  <dirname property="module.exemploconta.basedir" file="${ant.file.module_exemploconta}"/>
+  
+  <property name="module.jdk.home.exemploconta" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.exemploconta" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.exemploconta" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.exemploconta" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="exemploconta.output.dir" value="${module.exemploconta.basedir}/out/production/exemploConta"/>
+  <property name="exemploconta.testoutput.dir" value="${module.exemploconta.basedir}/out/test/exemploConta"/>
+  
+  <path id="exemploconta.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="exemploconta.module.production.classpath">
+    <path refid="${module.jdk.classpath.exemploconta}"/>
+  </path>
+  
+  <path id="exemploconta.runtime.production.module.classpath">
+    <pathelement location="${exemploconta.output.dir}"/>
+  </path>
+  
+  <path id="exemploconta.module.classpath">
+    <path refid="${module.jdk.classpath.exemploconta}"/>
+    <pathelement location="${exemploconta.output.dir}"/>
+  </path>
+  
+  <path id="exemploconta.runtime.module.classpath">
+    <pathelement location="${exemploconta.testoutput.dir}"/>
+    <pathelement location="${exemploconta.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.exemploconta">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.exemploconta">
+    <patternset refid="excluded.from.module.exemploconta"/>
+  </patternset>
+  
+  <path id="exemploconta.module.sourcepath">
+    <dirset dir="${module.exemploconta.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.exemploconta" depends="compile.module.exemploconta.production,compile.module.exemploconta.tests" description="Compile module exemploConta"/>
+  
+  <target name="compile.module.exemploconta.production" depends="register.custom.compilers" description="Compile module exemploConta; production classes">
+    <mkdir dir="${exemploconta.output.dir}"/>
+    <javac2 destdir="${exemploconta.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.exemploconta}/javac">
+      <compilerarg line="${compiler.args.exemploconta}"/>
+      <bootclasspath refid="exemploconta.module.bootclasspath"/>
+      <classpath refid="exemploconta.module.production.classpath"/>
+      <src refid="exemploconta.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.exemploconta"/>
+    </javac2>
+    
+    <copy todir="${exemploconta.output.dir}">
+      <fileset dir="${module.exemploconta.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.exemploconta.tests" depends="register.custom.compilers,compile.module.exemploconta.production" description="compile module exemploConta; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.exemploconta" description="cleanup module">
+    <delete dir="${exemploconta.output.dir}"/>
+    <delete dir="${exemploconta.testoutput.dir}"/>
+  </target>
+</project>
