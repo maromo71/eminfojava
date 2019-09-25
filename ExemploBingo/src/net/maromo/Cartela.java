@@ -1,6 +1,5 @@
 package net.maromo;
 
-import java.security.SecureRandom;
 import java.util.Random;
 
 public class Cartela {
