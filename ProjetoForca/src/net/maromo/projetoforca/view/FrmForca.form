@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="net.maromo.projetoforca.view.FrmForca">
+  <grid id="27dc6" binding="panelForca" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1758" height="612"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="af10c" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6dfef" class="javax.swing.JLabel" binding="lblForca">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="net/maromo/projetoforca/utils/forca0.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="39479">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="cee1c">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="7c529" binding="panelTexts" layout-manager="GridLayoutManager" row-count="1" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="20b4b" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="30"/>
+                <preferred-size width="30" height="30"/>
+                <maximum-size width="30" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="73176" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="30"/>
+                <preferred-size width="30" height="30"/>
+                <maximum-size width="30" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="9d8d" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="30"/>
+                <preferred-size width="30" height="30"/>
+                <maximum-size width="30" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="65ed4" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="30"/>
+                <preferred-size width="30" height="30"/>
+                <maximum-size width="30" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="1eff9" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="30"/>
+                <preferred-size width="30" height="30"/>
+                <maximum-size width="30" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="b27a9" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="30"/>
+                <preferred-size width="30" height="30"/>
+                <maximum-size width="30" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="3ab8d" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="30"/>
+                <preferred-size width="30" height="30"/>
+                <maximum-size width="30" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="9c433" class="javax.swing.JTextField" binding="textField8" default-binding="true">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="30"/>
+                <preferred-size width="30" height="30"/>
+                <maximum-size width="30" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="e1af" class="javax.swing.JTextField" binding="textField9" default-binding="true">
+            <constraints>
+              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="30"/>
+                <preferred-size width="30" height="30"/>
+                <maximum-size width="30" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="be66f" class="javax.swing.JTextField" binding="textField10" default-binding="true">
+            <constraints>
+              <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="30"/>
+                <preferred-size width="30" height="30"/>
+                <maximum-size width="30" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="3bd67" class="javax.swing.JTextField" binding="textField11" default-binding="true">
+            <constraints>
+              <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="30"/>
+                <preferred-size width="30" height="30"/>
+                <maximum-size width="30" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <hspacer id="57182">
+            <constraints>
+              <grid row="0" column="11" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="d6644" binding="panelBotoesAJ" layout-manager="GridLayoutManager" row-count="2" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b563d" class="javax.swing.JButton" binding="btA">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="A"/>
+            </properties>
+          </component>
+          <vspacer id="d09d5">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="e7b5e" class="javax.swing.JButton" binding="btB">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="B"/>
+            </properties>
+          </component>
+          <component id="a352f" class="javax.swing.JButton" binding="btC">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="C"/>
+            </properties>
+          </component>
+          <component id="48db3" class="javax.swing.JButton" binding="btD">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="D"/>
+            </properties>
+          </component>
+          <component id="5bc67" class="javax.swing.JButton" binding="btE">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="E"/>
+            </properties>
+          </component>
+          <component id="7f72b" class="javax.swing.JButton" binding="btF">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="F"/>
+            </properties>
+          </component>
+          <component id="b8649" class="javax.swing.JButton" binding="btG">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="G"/>
+            </properties>
+          </component>
+          <component id="b1904" class="javax.swing.JButton" binding="btH">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="H"/>
+            </properties>
+          </component>
+          <component id="94b67" class="javax.swing.JButton" binding="btI">
+            <constraints>
+              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="I"/>
+            </properties>
+          </component>
+          <component id="b4437" class="javax.swing.JButton" binding="btJ">
+            <constraints>
+              <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="J"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="3e41f" binding="panelBotoesKT" layout-manager="GridLayoutManager" row-count="1" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ce425" class="javax.swing.JButton" binding="btK">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="K"/>
+            </properties>
+          </component>
+          <component id="9afbc" class="javax.swing.JButton" binding="btL">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="L"/>
+            </properties>
+          </component>
+          <component id="e2493" class="javax.swing.JButton" binding="btM">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="M"/>
+            </properties>
+          </component>
+          <component id="504d7" class="javax.swing.JButton" binding="btN">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="N"/>
+            </properties>
+          </component>
+          <component id="d3874" class="javax.swing.JButton" binding="btO">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="O"/>
+            </properties>
+          </component>
+          <component id="e0cb5" class="javax.swing.JButton" binding="btP">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="P"/>
+            </properties>
+          </component>
+          <component id="7621b" class="javax.swing.JButton" binding="btQ">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Q"/>
+            </properties>
+          </component>
+          <component id="21621" class="javax.swing.JButton" binding="btR">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="R"/>
+            </properties>
+          </component>
+          <component id="40a3a" class="javax.swing.JButton" binding="btS">
+            <constraints>
+              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="S"/>
+            </properties>
+          </component>
+          <component id="fc42f" class="javax.swing.JButton" binding="btT">
+            <constraints>
+              <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="T"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="fa0f7" binding="panelBotoesUZ" layout-manager="GridLayoutManager" row-count="2" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="43ae0" class="javax.swing.JButton" binding="btU">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="U"/>
+            </properties>
+          </component>
+          <vspacer id="6b246">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="49a8b" class="javax.swing.JButton" binding="btV">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="V"/>
+            </properties>
+          </component>
+          <component id="fb820" class="javax.swing.JButton" binding="btW">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="W"/>
+            </properties>
+          </component>
+          <component id="cc1c6" class="javax.swing.JButton" binding="btX">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="X"/>
+            </properties>
+          </component>
+          <component id="d853a" class="javax.swing.JButton" binding="btY">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Y"/>
+            </properties>
+          </component>
+          <component id="6e225" class="javax.swing.JButton" binding="btZ">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Z"/>
+            </properties>
+          </component>
+          <hspacer id="d6cd">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="cbcfe" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="181d9" class="javax.swing.JLabel" binding="labelDica">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Dica:"/>
+            </properties>
+          </component>
+          <component id="7e1af" class="javax.swing.JLabel" binding="labelValorDica">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <hspacer id="1e6c3">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
